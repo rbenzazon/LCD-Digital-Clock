@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+}
+.outline {
+  display: inline-block;
+  background-color: rgb(179, 179, 179);
+  padding: 12px;
+  border-radius: 12px;
+  margin: 40px;
+}
+.frame {
+  display: inline-block;
+  background-color: black;
+  padding: 28px;
+  border-radius: 5px;
+}
+.clock {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.clock svg {
+  height: 120px;
+}
+.clock svg path {
+  box-shadow: 3px 3px red inset;
+  transition: fill 0.3s;
+}
+.lit {
+  fill: white;
+  stroke: black;
+}
+.dim {
+  fill: #272727;
+  stroke: black;
+}
